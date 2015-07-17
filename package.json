@@ -1,0 +1,34 @@
+{
+  "name": "npm-publish-split-stream",
+  "version": "1.0.0",
+  "description": "Splits an npm publish request using jsonstream and duplexify",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "stylezero *.js",
+    "test": "istanbul cover ./node_modules/.bin/_mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:indexzero/npm-publish-split-stream.git"
+  },
+  "keywords": [
+    "npm",
+    "publish"
+  ],
+  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "contributors": [
+    "Martijn Swaagman <info@martijnswaagman.nl>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "duplexify": "^3.4.2",
+    "jsonstream": "^1.0.3"
+  },
+  "devDependencies": {
+    "istanbul": "~0.3.17",
+    "minimist": "~1.1.1",
+    "mocha": "~2.2.5",
+    "mocha-istanbul": "~0.2.0",
+    "stylezero": "~2.2.0"
+  }
+}
