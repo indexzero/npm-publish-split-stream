@@ -3,7 +3,7 @@
 var stream = require('stream'),
     util = require('util'),
     duplexify = require('duplexify'),
-    jsonstream = require('jsonstream');
+    jsonstream = require('JSONStream');
 
 /*
  * function PublishSplitStream ()
